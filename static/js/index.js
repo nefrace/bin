@@ -19,6 +19,7 @@ window.onload = () => {
 
 const onInput = () => {
     submitButton.classList.toggle('hidden', !textarea.value);
+    filename.classList.toggle('hidden', !textarea.value);
     select.classList.toggle('hidden', !textarea.value);
     fileUpload.classList.toggle('hidden', textarea.value);
 }

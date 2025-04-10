@@ -205,6 +205,7 @@ SEE ALSO
             </select>
         </div>
         <div class="submitButtonBox">
+            <input type="text" id="filename" name="filename" placeholder="filename"/>
             <button type="submit" title="Paste">Paste</button>
         </div>
     </div>

@@ -40,6 +40,8 @@ form.highlight {
 
 .submitButtonBox {
     grid-row: 1/2;
+    display:flex;
+    gap: 5px;
 }
 
 .fileUpload {

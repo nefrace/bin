@@ -104,6 +104,7 @@ fn rocket() -> _ {
                 routes::index::index,
                 routes::static_files::static_files,
                 routes::upload::upload,
+                routes::upload::upload_replace,
                 routes::submit::submit,
                 routes::retrieve::retrieve,
                 routes::retrieve::retrieve_ext,
